@@ -52,13 +52,25 @@ h1 {
     margin-bottom: 1em;
 }
 
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    left: 0;
+    background-color: #ffffff;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    padding: 0 1rem;
+    display: none;
+
+}
+
+
 /* Main Content */
 main {
     background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
-
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
