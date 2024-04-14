@@ -19,7 +19,9 @@ body {
     font-family: 'lato', sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Oswald';
     sans-serif;
     text-transform: uppercase;
@@ -104,19 +106,46 @@ main {
     font-size: 130%;
     position: absolute;
     bottom: 30px;
-    width:80%;
+    width: 80%;
     min-height: 200px;
     padding-top: 40px;
 
 }
 
-#cover-text > h2, #cover-text > h3 {
-    color:#ffffff;
-} 
+#cover-text>h2,
+#cover-text>h3 {
+    color: #ffffff;
+}
 
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
+ /* reasons content */
+ #reasons {
+    margin: 20px 20px;
+    text-align: center;
+}
+
+#benefits {
+    margin-top: 20px;
+}
+
+#benefits div {
+    line-height: 20px;
+    margin: 20px;
+
+}
+
+#benefits p {
+    padding: 0 20px;
+    text-align: center;
+}
+
+#benefits h3 {
+    text-align: left;
+}
+
 
 /* footer */
 #social-networks {
@@ -135,6 +164,7 @@ main {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width:768px) {
+
     /* header */
     nav {
         display: block;
@@ -149,7 +179,7 @@ main {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -173,10 +203,9 @@ main {
     /* hero text */
     #cover-text {
         width: 300px;
-        right:50px
+        right: 50px
     }
-
-}
+    
 
 /* Media query for laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
